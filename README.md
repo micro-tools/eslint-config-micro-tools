@@ -1,4 +1,4 @@
-eslint-configuration
+eslint-config-micro-tools
 ====================
 
 [Shareable eslint](http://eslint.org/docs/developer-guide/shareable-configs) config as used by micro-tools and nodefluent.
@@ -9,14 +9,14 @@ Setup
 Install this module (and eslint) and add it to *package.json's* *devDependencies*:
 
 ```
-npm install -D eslint-configuration
+npm install -D eslint-config-micro-tools
 ```
 
 Create a basic *.eslintrc.json* file in your project's root:
 
 ```json
 {
-    "extends": "eslint-configuration"
+    "extends": "eslint-config-micro-tools"
 }
 ```
 

@@ -1,5 +1,5 @@
 {
-    "name": "eslint-configuration",
+    "name": "eslint-config-micro-tools",
     "version": "0.1.0",
     "description": "eslint configuration used by micro-tools and nodefluent",
     "main": "index.js",
@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/micro-tools/eslint-configuration.git"
+        "url": "https://github.com/micro-tools/eslint-config-micro-tools.git"
     },
     "keywords": [
         "eslint",
