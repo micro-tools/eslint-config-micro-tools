@@ -55,6 +55,6 @@ module.exports = {
         "prefer-const": "warn",
 
         // custom ECMAScript 6
-        "no-es6-getter-setter": "error"
+        "no-es6-getter-setter/no-es6-getter-setter": "error"
     }
 };
