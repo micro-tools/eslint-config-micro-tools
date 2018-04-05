@@ -1,31 +1,32 @@
 {
-    "name": "eslint-config-micro-tools",
-    "version": "0.1.0",
-    "description": "eslint configuration used by micro-tools and nodefluent",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "install": "node bin/install.js"
-    },
-    "bin": {
-        "insert-missing-use-strict": "./bin/insert-missing-use-strict.sh"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/micro-tools/eslint-config-micro-tools.git"
-    },
-    "keywords": [
-        "eslint",
-        "eslintconfig"
-    ],
-    "author": "micro-tools",
-    "license": "MIT",
-    "private": false,
-    "peerDependencies": {
-        "eslint": ">= 4"
-    },
-    "dependencies": {
-        "eslint-plugin-no-es6-getter-setter": "^0.1.0",
-        "git-validate": "^2.2.2"
-    }
+  "name": "eslint-config-micro-tools",
+  "version": "0.1.0",
+  "description": "eslint configuration used by micro-tools and nodefluent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node bin/install.js",
+    "lint": "eslint ."
+  },
+  "bin": {
+    "insert-missing-use-strict": "./bin/insert-missing-use-strict.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micro-tools/eslint-config-micro-tools.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "micro-tools",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "dependencies": {
+    "eslint-plugin-no-es6-getter-setter": "^0.1.0",
+    "git-validate": "^2.2.2"
+  }
 }
